@@ -1,8 +1,8 @@
-# Spring 3 with Java 17
+# Dynamo Application (Onboarding-service)
 
 ## Introduction
 
-Welcome to the Spring 3 with Java 17 project! This README provides essential information to get you started with this project.
+Welcome to the Spring 3.2.2 with Java 17 project! This README provides essential information to get you started with this project.
 
 ## Table of Contents
 
@@ -58,4 +58,14 @@ The project structure is organized in a standard Maven project layout. Here are 
 
 - `src/main/java`: Contains the main Java source code.
 - `src/main/resources`: Contains configuration files and static assets.
+
+
+## Contributing
+
+If you would like to contribute to this project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
