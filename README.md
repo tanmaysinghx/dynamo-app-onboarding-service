@@ -13,8 +13,8 @@ Welcome to the Spring 3.2.2 with Java 17 project! This README provides essential
 3. [Technology](#technology)
 4. [Project Structure](#project-structure)
 5. [Contributing](#contributing)
-6. [License](#license)
-7. [API Description](#api-description)
+6. [API Description](#api-description) 
+7. [License](#license)
 
 
 ## Prerequisites
@@ -70,11 +70,6 @@ The project structure is organized in a standard Maven project layout. Here are 
 If you would like to contribute to this project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
 ## API Description
 
 This section provides a brief overview of the APIs available in the project along with sample payload examples.
@@ -104,3 +99,8 @@ This API registers a new company.
     "startDate": "2024-02-07",
     "endDate": "2024-02-14"
 }
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
