@@ -81,14 +81,25 @@ This section provides a brief overview of the APIs available in the project alon
 ### 1. Endpoint: `/company-details/get-company-data/{{companyId}}`
 
 #### Description:
-This API provides information about a specific resource.
+This API provides get company data based on company id(52).
 
 #### Method: `GET`
+
+### 2. Endpoint: `/company-details/register-company`
+
+#### Description:
+This API registers a new company.
+
+#### Method: `POST`
 
 ##### Request:
 
 ```json
-// Sample Request Payload
 {
-  "resourceId": 123
+    "companyName": "Dummy Corporation",
+    "packageCode": 12345,
+    "superuserName": "John Doe",
+    "superuserEmail": "john.doe@example.com",
+    "startDate": "2024-02-07",
+    "endDate": "2024-02-14"
 }
