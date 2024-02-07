@@ -14,6 +14,7 @@ Welcome to the Spring 3.2.2 with Java 17 project! This README provides essential
 4. [Project Structure](#project-structure)
 5. [Contributing](#contributing)
 6. [License](#license)
+7. [API Description](#api-description)
 
 
 ## Prerequisites
