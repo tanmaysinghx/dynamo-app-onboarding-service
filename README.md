@@ -99,7 +99,7 @@ This API registers a new company.
     "startDate": "2024-02-07",
     "endDate": "2024-02-14"
 }
-
+```
 
 ## License
 
