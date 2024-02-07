@@ -51,3 +51,11 @@ This project is built using the following technologies:
 - **Maven:** A popular build and project management tool.
 - **SQL:** Used for database management.
 
+
+## Project Structure
+
+The project structure is organized in a standard Maven project layout. Here are some important directories:
+
+- `src/main/java`: Contains the main Java source code.
+- `src/main/resources`: Contains configuration files and static assets.
+
