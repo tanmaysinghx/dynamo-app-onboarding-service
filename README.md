@@ -8,8 +8,7 @@ Welcome to the Spring 3 with Java 17 project! This README provides essential inf
 
 1. [Prerequisites](#prerequisites)
 2. [Setup](#setup)
-3. [Running the Application](#running-the-application)
-4. [Project Structure](#project-structure)
+3. [Project Structure](#project-structure)
 5. [Contributing](#contributing)
 6. [License](#license)
 
