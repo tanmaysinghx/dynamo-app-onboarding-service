@@ -1,5 +1,7 @@
 package com.dynamoapp.service;
 
+import java.util.List;
+
 import com.dynamoapp.model.CompanyDetails;
 
 public interface CompanyDetailsService {
@@ -8,11 +10,14 @@ public interface CompanyDetailsService {
 	public CompanyDetails registerCompany(CompanyDetails companyDetails) throws Exception;
 	
 	/* Update data for a company */
-	public CompanyDetails updateData(String companyCode);
+	public CompanyDetails updateData(Long companyCode, CompanyDetails companyDetails);
 	
 	/* Delete company */
-	public CompanyDetails deleteCompany(String companyCode);
+	public CompanyDetails deleteCompany(Long companyCode);
 	
 	/* Get company details */
-	public CompanyDetails getCompanyDetails(String companyCode);
+	public CompanyDetails getCompanyDetails(Long companyCode);
+	
+	/* Get all company list */
+	public List<CompanyDetails> getAllCompanies();
 }
