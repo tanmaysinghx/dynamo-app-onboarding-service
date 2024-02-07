@@ -65,6 +65,26 @@ The project structure is organized in a standard Maven project layout. Here are 
 If you would like to contribute to this project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 
+## API Description
+
+This section provides a brief overview of the APIs available in the project along with sample payload examples.
+
+### 1. Endpoint: `/api/resource`
+
+#### Description:
+This API provides information about a specific resource.
+
+#### Method: `GET`
+
+##### Request:
+
+```json
+// Sample Request Payload
+{
+  "resourceId": 123
+}
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
