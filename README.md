@@ -78,7 +78,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 This section provides a brief overview of the APIs available in the project along with sample payload examples.
 
-### 1. Endpoint: `[/company-details/get-company-data/2]`
+### 1. Endpoint: [/company-details/get-company-data/2]
 
 #### Description:
 This API provides information about a specific resource.
