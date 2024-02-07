@@ -19,7 +19,7 @@ Before you begin, ensure you have the following tools and technologies installed
 
 - **Java 17:** Make sure you have Java Development Kit (JDK) 17 installed.
 - **Apache Maven:** Maven is used for building and managing the project dependencies.
-- **Integrated Development Environment (IDE):** You can use any Java-compatible IDE such as IntelliJ IDEA or Eclipse.
+- **Integrated Development Environment (IDE):** You can use any Java-compatible IDE such as IntelliJ IDEA, Spring Tool Suite 4 or Eclipse.
 
 ## Setup
 
@@ -31,7 +31,12 @@ Before you begin, ensure you have the following tools and technologies installed
    ```bash
    cd spring3-java17
    mvn clean install
+
+3. **Setup DB using SQL:**
+   ```bash
+   CREATE DATABASE `DB1DYNAMO`
+   /* Run this query in SQL or manually create a DB with name "DB1DYNAMO" */
  
-3. **Run the Project:**
+4. **Run the Project:**
    ```bash
    mvn spring-boot:run
