@@ -8,7 +8,8 @@ Welcome to the Spring 3 with Java 17 project! This README provides essential inf
 
 1. [Prerequisites](#prerequisites)
 2. [Setup](#setup)
-3. [Project Structure](#project-structure)
+3. [Technology] (#technology)
+4. [Project Structure](#project-structure)
 5. [Contributing](#contributing)
 6. [License](#license)
 
@@ -24,11 +25,11 @@ Before you begin, ensure you have the following tools and technologies installed
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/spring3-java17.git
+   git clone https://github.com/tanmaysinghx/dynamo-app-onboarding-service.git
 
 2. **Build the Project:**
    ```bash
-   cd spring3-java17
+   cd dynamo-app-onboarding-service
    mvn clean install
 
 3. **Setup DB using SQL:**
