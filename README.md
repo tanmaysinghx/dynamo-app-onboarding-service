@@ -1,8 +1,10 @@
 # Dynamo Application (Onboarding-service)
 
+
 ## Introduction
 
 Welcome to the Spring 3.2.2 with Java 17 project! This README provides essential information to get you started with this project.
+
 
 ## Table of Contents
 
@@ -13,6 +15,7 @@ Welcome to the Spring 3.2.2 with Java 17 project! This README provides essential
 5. [Contributing](#contributing)
 6. [License](#license)
 
+
 ## Prerequisites
 
 Before you begin, ensure you have the following tools and technologies installed on your machine:
@@ -20,6 +23,7 @@ Before you begin, ensure you have the following tools and technologies installed
 - **Java 17:** Make sure you have Java Development Kit (JDK) 17 installed.
 - **Apache Maven:** Maven is used for building and managing the project dependencies.
 - **Integrated Development Environment (IDE):** You can use any Java-compatible IDE such as IntelliJ IDEA, Spring Tool Suite 4 or Eclipse.
+
 
 ## Setup
 
@@ -65,11 +69,16 @@ The project structure is organized in a standard Maven project layout. Here are 
 If you would like to contribute to this project, please follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 ## API Description
 
 This section provides a brief overview of the APIs available in the project along with sample payload examples.
 
-### 1. Endpoint: `/api/resource`
+### 1. Endpoint: `[/company-details/get-company-data/2]`
 
 #### Description:
 This API provides information about a specific resource.
@@ -83,9 +92,3 @@ This API provides information about a specific resource.
 {
   "resourceId": 123
 }
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
